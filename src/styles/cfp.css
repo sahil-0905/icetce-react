@@ -1,0 +1,115 @@
+/* =============================================
+   Call for Papers Page Styles
+   ============================================= */
+
+.cfp-intro .lead {
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-700);
+}
+
+/* Tracks Accordion */
+.tracks-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.track-item {
+    margin-bottom: var(--space-4);
+}
+
+.track-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+    padding: var(--space-5) var(--space-6);
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-200);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    text-align: left;
+}
+
+.track-header:hover {
+    border-color: var(--color-blue);
+    box-shadow: var(--shadow-md);
+}
+
+.track-item.open .track-header {
+    background: var(--color-blue);
+    border-color: var(--color-blue);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.track-number {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-red);
+    line-height: 1;
+    min-width: 40px;
+}
+
+.track-item.open .track-number {
+    color: var(--color-white);
+}
+
+.track-title {
+    flex: 1;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-gray-800);
+}
+
+.track-item.open .track-title {
+    color: var(--color-white);
+}
+
+.track-toggle {
+    font-size: var(--font-size-2xl);
+    color: var(--color-gray-400);
+    transition: transform var(--transition-fast);
+}
+
+.track-item.open .track-toggle {
+    color: var(--color-white);
+    transform: rotate(45deg);
+}
+
+.track-content {
+    display: none;
+    background: var(--color-gray-50);
+    border: 1px solid var(--color-gray-200);
+    border-top: none;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    padding: var(--space-6);
+}
+
+.track-item.open .track-content {
+    display: block;
+}
+
+.topic-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-3);
+}
+
+.topic-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-2);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-700);
+}
+
+.topic-list li::before {
+    content: '→';
+    color: var(--color-red);
+    font-weight: var(--font-weight-bold);
+}
+
+/* CFP CTA */
+.cfp-cta h3 {
+    margin-bottom: var(--space-2);
+}

@@ -1,0 +1,124 @@
+/* =============================================
+   Speakers Page Styles - Simple Clean Design
+   ============================================= */
+
+/* Page Hero */
+.page-hero {
+    position: relative;
+    padding: calc(72px + var(--space-16)) 0 var(--space-12);
+    overflow: hidden;
+}
+
+.page-hero__bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--color-blue-dark) 0%, var(--color-blue) 100%);
+    z-index: -1;
+}
+
+.page-hero__content {
+    text-align: center;
+    color: var(--color-white);
+}
+
+.page-hero__label {
+    display: inline-block;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    opacity: 0.8;
+    margin-bottom: var(--space-4);
+}
+
+.page-hero__content h1 {
+    color: var(--color-white);
+    margin-bottom: var(--space-4);
+}
+
+.page-hero__content p {
+    font-size: var(--font-size-lg);
+    opacity: 0.9;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* =============================================
+   Simple Speaker Cards
+   ============================================= */
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-5);
+}
+
+.speaker-card {
+    display: block;
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-200);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    transition: all var(--transition-normal);
+    text-decoration: none;
+}
+
+.speaker-card:hover {
+    border-color: var(--color-blue);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.speaker-card h3 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-gray-900);
+    margin-bottom: var(--space-2);
+}
+
+.speaker-card:hover h3 {
+    color: var(--color-blue);
+}
+
+.speaker-card__title {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-600);
+    margin-bottom: var(--space-1);
+}
+
+.speaker-card__org {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-red);
+    margin: 0;
+}
+
+/* Clickable cards with link indicator */
+a.speaker-card::after {
+    content: '→';
+    position: absolute;
+    right: var(--space-4);
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+    color: var(--color-blue);
+}
+
+a.speaker-card {
+    position: relative;
+}
+
+a.speaker-card:hover::after {
+    opacity: 1;
+}
+
+/* =============================================
+   Responsive Design
+   ============================================= */
+
+@media (max-width: 768px) {
+    .speakers-grid {
+        grid-template-columns: 1fr;
+    }
+}
