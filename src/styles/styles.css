@@ -881,9 +881,12 @@ p {
         transition: transform var(--transition-normal);
     }
 
-    .navbar__menu.open {
+    /* .navbar__menu.open{
         transform: translateX(0);
-    }
+    } */
+     .navbar__menu.navbar__menu--open {
+    transform: translateX(0);
+}
 
     .navbar__toggle {
         display: flex;
