@@ -266,3 +266,12 @@
         grid-template-columns: 1fr;
     }
 }
+/* ✅ Hide slider arrows on mobile */
+@media (max-width: 768px) {
+  .hero__arrow {
+    display: none !important;
+  }
+  .hero__scroll {
+    display: none !important;
+  }
+}
