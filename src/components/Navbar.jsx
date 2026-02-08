@@ -41,23 +41,10 @@ function Navbar() {
     <nav className={`navbar ${isScrolled ? "navbar--scrolled" : ""}`} id="navbar">
       <div className="container navbar__inner">
         <Link to="/" className="navbar__logo" onClick={handleNavClick}>
-          <div className="navbar__logo-icon">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <rect x="4" y="4" width="6" height="6" rx="1" />
-              <rect x="14" y="4" width="6" height="6" rx="1" />
-              <rect x="4" y="14" width="6" height="6" rx="1" />
-              <rect x="14" y="14" width="6" height="6" rx="1" />
-            </svg>
-          </div>
-          ICETCE
-        </Link>
+    <img src="/skit_logo.png" alt="SKIT Logo" />
+    <img src="/logo.png" alt="ICETCE Logo" />
+   
+  </Link>
 
         <ul className={`navbar__menu ${isMenuOpen ? "navbar__menu--open" : ""}`} id="navMenu">
           <li>

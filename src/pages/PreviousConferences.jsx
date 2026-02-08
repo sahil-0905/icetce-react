@@ -2,13 +2,13 @@ import { useState, useEffect } from 'react';
 
 const conferences = [
     { year: 2025, theme: 'Artificial Intelligence and Smart Computing', papers: '180+', attendees: '400+', link: 'https://icetce.skit.ac.in/2025', image: '/2025.jpeg' },
-    { year: 2024, theme: 'Machine Learning and Data Science', papers: '165+', attendees: '380+', link: 'https://icetce.skit.ac.in/2024', image: 'https://placekitten.com/601/400' },
-    { year: 2023, theme: 'Cloud Computing and Cybersecurity', papers: '150+', attendees: '350+', link: 'https://icetce.skit.ac.in/2023', image: 'https://placekitten.com/602/400' },
-    { year: 2022, theme: 'IoT and Smart Systems', papers: '140+', attendees: '320+', link: 'https://icetce.skit.ac.in/2022', image: 'https://placekitten.com/603/400' },
-    { year: 2021, theme: 'Virtual Conference - Digital Transformation', papers: '130+', attendees: '500+', link: 'https://icetce.skit.ac.in/2021', image: 'https://placekitten.com/604/400' },
-    { year: 2020, theme: 'Healthcare and Computing', papers: '120+', attendees: '300+', link: 'https://icetce.skit.ac.in/2020', image: 'https://placekitten.com/605/400' },
-    { year: 2019, theme: 'Big Data and Analytics', papers: '110+', attendees: '280+', link: 'https://icetce.skit.ac.in/2019', image: 'https://placekitten.com/606/400' },
-    { year: 2018, theme: 'Emerging Technologies', papers: '100+', attendees: '250+', link: 'https://icetce.skit.ac.in/pp.pdf', image: 'https://placekitten.com/607/400' },
+    { year: 2024, theme: 'Machine Learning and Data Science', papers: '165+', attendees: '380+', link: 'https://icetce.skit.ac.in/2024', image: '/2024.jpeg' },
+    { year: 2023, theme: 'Cloud Computing and Cybersecurity', papers: '150+', attendees: '350+', link: 'https://icetce.skit.ac.in/2023', image: '/2023.jpeg' },
+    { year: 2022, theme: 'IoT and Smart Systems', papers: '140+', attendees: '320+', link: 'https://icetce.skit.ac.in/2022', image: '/2022.jpeg' },
+    { year: 2021, theme: 'Virtual Conference - Digital Transformation', papers: '130+', attendees: '500+', link: 'https://icetce.skit.ac.in/2021', image: '/2021.jpeg' },
+    { year: 2020, theme: 'Healthcare and Computing', papers: '120+', attendees: '300+', link: 'https://icetce.skit.ac.in/2020', image: '/2020.jpeg' },
+    { year: 2019, theme: 'Big Data and Analytics', papers: '110+', attendees: '280+', link: 'https://icetce.skit.ac.in/2019', image: '/2019.jpeg' },
+    { year: 2018, theme: 'Emerging Technologies', papers: '100+', attendees: '250+', link: 'https://icetce.skit.ac.in/pp.pdf', image: '2018.jpeg' },
 ];
 
 const earlierConferences = [

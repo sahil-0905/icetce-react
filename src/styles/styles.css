@@ -398,6 +398,17 @@ p {
     background: var(--color-gray-800);
     transition: all var(--transition-fast);
 }
+.navbar__logo img {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+}
+.navbar.scrolled {
+    box-shadow: var(--shadow-md);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+}
+
 
 /* =============================================
    Buttons
