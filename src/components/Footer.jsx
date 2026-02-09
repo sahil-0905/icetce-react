@@ -7,15 +7,8 @@ function Footer() {
                 <div className="footer__grid">
                     <div className="footer__brand">
                         <div className="footer__logo">
-                            <div className="navbar__logo-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                    <rect x="4" y="4" width="6" height="6" rx="1" />
-                                    <rect x="14" y="4" width="6" height="6" rx="1" />
-                                    <rect x="4" y="14" width="6" height="6" rx="1" />
-                                    <rect x="14" y="14" width="6" height="6" rx="1" />
-                                </svg>
-                            </div>
-                            ICETCE
+                            <img src="/skit_logo.png" alt="SKIT Logo" />
+                            <img src="/logo.png" alt="ICETCE Logo" />
                         </div>
                         <p className="footer__description">
                             ICETCE-2026 is organised by Department of Computer Science & Engineering / Department of Information Technology, SKIT, Jaipur.

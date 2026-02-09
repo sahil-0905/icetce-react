@@ -14,7 +14,7 @@
 /* Content Grid */
 .content-grid {
     display: grid;
-    grid-template-columns: 1fr 360px;
+    grid-template-columns: 1fr 500px;
     gap: var(--space-12);
     align-items: start;
 }
@@ -103,6 +103,20 @@
         grid-template-columns: 1fr;
         gap: var(--space-1);
     }
+}
+
+/* About Image */
+.about-image {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    margin-bottom: var(--space-6);
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    object-fit: cover;
 }
 
 /* Info Box */

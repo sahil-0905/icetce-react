@@ -1,0 +1,5 @@
+9thInternational Conference on “Emerging Technologies in Computer Engineering: Responsible AI and Green Digital Infrastructure for Sustainable FinTech and Smart Societies (ICETCE-2026)
+ 
+ICETCE-2026 provides an international platform for researchers, academicians, and industry experts to present and exchange advances in Responsible Artificial Intelligence, Green Digital Infrastructure, and Sustainable Digital Technologies
+
+As AI, cloud computing, and financial technologies continue to expand rapidly, their ethical, energy, and environmental impacts have become critical global challenges. This conference addresses these challenges by promoting the development of trustworthy, explainable, and fair AI systems, alongside energy-efficient and low-carbon digital infrastructures.

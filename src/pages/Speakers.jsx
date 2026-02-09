@@ -61,115 +61,130 @@ import seeram from "../assets/speakers/seeram.png";
 import defaultImg from "../assets/speakers/defaultImg.png";
 import teacher2 from "../assets/speakers/teacher2.jpg";
 import teacher4 from "../assets/speakers/teacher4.jpg";
+import samiraHosseini from "../assets/speakers/Prof. Samira Hosseini.png";
+import somitraSanadhya from "../assets/speakers/Somitra Sanadhya.jpg";
+import puneetGoyal from "../assets/speakers/Dr. Puneet.jpg";
+import emmanuelPilli from "../assets/speakers/Dr. Pilli Emmanuel.png";
+import damanDev from "../assets/speakers/Mr. Daman Dev.jpg";
+import kSubramanian from "../assets/speakers/prof-k-subramanian.jpg";
+import dBoolchandani from "../assets/speakers/Dr. D Boolchandani.png";
+import sNanda from "../assets/speakers/Dr. S. Nanda.png";
+import harishIndouria from "../assets/speakers/Mr. Harish Indouria.jpg";
+import amitGupta from "../assets/speakers/Amit Gupta.jpg";
+import akashSaxena from "../assets/speakers/Dr. Akash Saxena.png";
+import poonamGoyal from "../assets/speakers/Dr. Poonam Goyal.jpeg";
+import mnHoda from "../assets/speakers/Prof. M. N. Hoda.jpg";
+import ssTyagi from "../assets/speakers/Dr. S. S. Tyagi.png";
+import aMurali from "../assets/speakers/Dr. A Murali M.jpg";
 
 const speakers = [
   {
     name: "Prof. Seeram Ramakrishna",
-    title: "Vice President Research Strategy",
-    org: "National University of Singapore",
-    image: seeram, 
+    title: "Professor, Former Vice President Research Strategy, Faculty of Engineering",
+    org: "National University of Singapore (NUS), Singapore",
+    image: seeram,
   },
   {
-    name: "Prof. Arun K Somani",
+    name: "Prof. Arun K. Somani",
     title: "Associate Dean for Research, College of Engineering",
-    org: "Iowa State University, USA",
+    org: "Iowa State University, Ames, USA",
     image: teacher2,
   },
   {
-    name: "Dr. G R Sinha",
-    title: "PROVOST (Vice Chancellor)",
-    org: "GSFC University, Gujarat",
+    name: "Prof. (Dr.) G. R. Sinha",
+    title: "Provost (Vice Chancellor)",
+    org: "GSFC University, Vadodara, Gujarat, India",
     image: teacher4,
   },
   {
     name: "Prof. Samira Hosseini",
-    title: "Director of Writing Lab",
+    title: "Director of Writing Lab, Institute for Future of Education & Research Professor,",
     org: "Tecnológico de Monterrey, Mexico",
-    image: defaultImg,
+    image: samiraHosseini,
   },
   {
     name: "Dr. Somitra Kumar Sanadhya",
     title: "Professor (CSE)",
     org: "IIT Kanpur, India",
-    image: defaultImg,
+    image: somitraSanadhya,
   },
   {
     name: "Dr. Puneet Goyal",
     title: "Associate Professor (CSE)",
     org: "IIT Ropar, India",
-    image: defaultImg,
+    image: puneetGoyal,
   },
   {
     name: "Dr. Emmanuel S. Pilli",
-    title: "Associate Professor",
-    org: "MNIT Jaipur, India",
-    image: defaultImg,
+    title: "Associate Professor (CSE)",
+    org: "MNIT, Jaipur",
+    image: emmanuelPilli,
   },
   {
     name: "Mr. Daman Dev Sood",
-    title: "Professor of Practice",
-    org: "Chitkara University, Chandigarh",
-    image: defaultImg,
+    title: "Standing Committee Member, Chair, Public Relations and Publication",
+    org: "Chitkara University & IEEE Delhi Section",
+    image: damanDev,
   },
   {
     name: "Prof. K. Subramanian",
-    title: "Chair, Computer Society Chapter",
+    title: "Ex-NIC,Member (ex-officio)",
     org: "IEEE Delhi Section, India",
-    image: defaultImg,
+    image: kSubramanian,
   },
   {
     name: "Dr. D Boolchandani",
-    title: "Immediate Past Chairman",
-    org: "IEEE Rajasthan Subsection",
-    image: defaultImg,
+    title: "Member (ex-officio), IEEE Delhi Section & Chairperson, IEEE Rajasthan Subsection",
+    org: "MNIT, Jaipur",
+    image: dBoolchandani,
   },
   {
     name: "Dr. S. Nanda",
     title: "Associate Professor",
-    org: "MNIT Jaipur, India",
-    image: defaultImg,
+    org: "MNIT, Jaipur",
+    image: sNanda,
   },
   {
     name: "Mr. Harish Indouria",
-    title: "Executive Vice President",
+    title: "Senior Vice President-Engineering",
     org: "AU Small Finance Bank",
-    image: defaultImg,
+    image: harishIndouria,
   },
   {
     name: "Mr. Amit Kumar Gupta",
-    title: "Scientist 'F'",
-    org: "DRDO, Government of India",
-    image: defaultImg,
+    title: "Scientist 'E'",
+    org: "DRDO",
+    image: amitGupta,
   },
   {
     name: "Dr. Akash Saxena",
-    title: "Associate Professor",
-    org: "Central University of Haryana",
-    image: defaultImg,
+    title: "Professor (EE)",
+    org: "Central University of Haryana, Mahendergarh",
+    image: akashSaxena,
   },
   {
     name: "Dr. Poonam Goyal",
-    title: "Associate Professor",
-    org: "BITS Pilani, India",
-    image: defaultImg,
+    title: "Professor (CS)",
+    org: "BITS, Pilani",
+    image: poonamGoyal,
   },
   {
     name: "Prof. M. N. Hoda",
-    title: "Chairperson – IEEE Delhi Section",
+    title: "Chairperson-IEEE Delhi Section & Director",
     org: "BVICAM, New Delhi",
-    image: defaultImg,
+    image: mnHoda,
   },
   {
     name: "Dr. S. S. Tyagi",
-    title: "Director",
-    org: "IIMT College, Greater Noida",
-    image: defaultImg,
+    title: "Director, Member (ex-officio), Chair IEEE Computer Society, IEEE Delhi Section",
+    org: "IIMT College of Engg., Greater Noida",
+    image: ssTyagi,
   },
   {
-    name: "Dr. A. Murali M. Rao",
-    title: "Professor",
-    org: "IGNOU, New Delhi",
-    image: defaultImg,
+    name: "Dr. A Murali M Rao",
+    title: "Director",
+    org: "IGNOU, New Delhi, India",
+    image: aMurali,
   },
 ];
 
