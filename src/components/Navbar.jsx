@@ -32,10 +32,22 @@ function Navbar() {
   ].includes(location.pathname);
 
   // ✅ close menu on click (extra safe)
+  // const handleNavClick = () => {
+  //   setIsMenuOpen(false);
+  //   setIsDropdownOpen(false);
+  // };
   const handleNavClick = () => {
-    setIsMenuOpen(false);
-    setIsDropdownOpen(false);
-  };
+  setIsMenuOpen(false);
+  setIsDropdownOpen(false);
+
+  // 🔥 FORCE SCROLL TOP
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "instant", // mobile ke liye better
+  });
+};
+
 
   return (
     <nav className={`navbar ${isScrolled ? "navbar--scrolled" : ""}`} id="navbar">
