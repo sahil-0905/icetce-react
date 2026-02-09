@@ -7,7 +7,7 @@ function Footer() {
                 <div className="footer__grid">
                     <div className="footer__brand">
                         <div className="footer__logo">
-                            <img src="/skit_logo.png" alt="SKIT Logo" />
+                            {/* <img src="/skit_logo.png" alt="SKIT Logo" /> */}
                             <img src="/logo.png" alt="ICETCE Logo" />
                         </div>
                         <p className="footer__description">
