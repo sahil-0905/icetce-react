@@ -125,7 +125,7 @@ function Home() {
                     <div className="about-grid">
                         <div className="about-content">
                             <span className="section-label">About the Conference</span>
-                            <h2>Shaping the Future of Technology</h2>
+                            <h2>9th International Conference on Emerging Technologies in Computer Engineering</h2>
                             <p>
                                 ICETCE-2026 provides an international platform for researchers, academicians, and industry
                                 experts to present and exchange advances in Responsible Artificial Intelligence, Green Digital
@@ -135,12 +135,12 @@ function Home() {
                                 As AI, cloud computing, and financial technologies continue to expand rapidly, their ethical,
                                 energy, and environmental impacts have become critical global challenges. This conference
                                 addresses these challenges by promoting the development of trustworthy, explainable, and fair AI
-                                systems.
+                                systems, alongside energy-efficient and low-carbon digital infrastructures.
                             </p>
                             <Link to="/about" className="btn btn--primary">Know More</Link>
                         </div>
                         <div className="about-image">
-                            <img src="https://placekitten.com/800/600" alt="Conference" />
+                            <img src="/about.png" alt="Conference" />
                         </div>
                     </div>
                 </div>
